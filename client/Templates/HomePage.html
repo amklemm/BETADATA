@@ -1,0 +1,17 @@
+<body>
+  <div class="">
+      <div class="">
+          {{#if isLoggedIn}}
+          {{> navBar}}
+          {{else}}
+          <div class="home">
+              <!-- <h1 class="heroText">BETA DATA</h1> -->
+              <h2 class="heroText">BETADATA <br /> A DATABASE FOR US</h2>
+              <div class="sign-page">
+                  {{> atForm}}
+              </div>
+          </div>
+          {{/if}}
+      </div>
+  </div>
+</body>
